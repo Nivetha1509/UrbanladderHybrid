@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-25T15:30:55 IST" name="Default suite" finished-at="2021-09-25T15:33:14 IST" duration-ms="138390">
+    <groups>
+    </groups>
+    <test started-at="2021-09-25T15:30:55 IST" name="Default test" finished-at="2021-09-25T15:33:14 IST" duration-ms="138390">
+      <class name="com.urbanladder.runner.Runner">
+        <test-method is-config="true" signature="getTestData()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:30:55 IST" name="getTestData" finished-at="2021-09-25T15:30:56 IST" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestData -->
+        <test-method is-config="true" signature="testing()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:30:57 IST" name="testing" finished-at="2021-09-25T15:30:59 IST" duration-ms="2793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method signature="addtocart(java.lang.String)[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:30:59 IST" name="addtocart" data-provider="getTestData" finished-at="2021-09-25T15:31:10 IST" duration-ms="10228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sofas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:10 IST" name="clean" finished-at="2021-09-25T15:31:11 IST" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method is-config="true" signature="testing()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:11 IST" name="testing" finished-at="2021-09-25T15:31:13 IST" duration-ms="1579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method signature="cart()[pri:1, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:13 IST" name="cart" finished-at="2021-09-25T15:31:17 IST" duration-ms="4644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:17 IST" name="clean" finished-at="2021-09-25T15:31:18 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method is-config="true" signature="testing()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:18 IST" name="testing" finished-at="2021-09-25T15:31:19 IST" duration-ms="1438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method signature="customerStories()[pri:2, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:19 IST" name="customerStories" finished-at="2021-09-25T15:31:25 IST" duration-ms="6103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerStories -->
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:25 IST" name="clean" finished-at="2021-09-25T15:31:26 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method is-config="true" signature="testing()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:26 IST" name="testing" finished-at="2021-09-25T15:31:27 IST" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method signature="giftcard()[pri:3, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:27 IST" name="giftcard" finished-at="2021-09-25T15:31:35 IST" duration-ms="7694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftcard -->
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:35 IST" name="clean" finished-at="2021-09-25T15:31:40 IST" duration-ms="4499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method is-config="true" signature="testing()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:40 IST" name="testing" finished-at="2021-09-25T15:31:41 IST" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method signature="homepagesearch(java.lang.String)[pri:4, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:41 IST" name="homepagesearch" data-provider="getTestData" finished-at="2021-09-25T15:31:48 IST" duration-ms="6907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sofas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagesearch -->
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:48 IST" name="clean" finished-at="2021-09-25T15:31:53 IST" duration-ms="4623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method is-config="true" signature="testing()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:53 IST" name="testing" finished-at="2021-09-25T15:31:54 IST" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method signature="login()[pri:5, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:31:54 IST" name="login" finished-at="2021-09-25T15:32:11 IST" duration-ms="17170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:32:11 IST" name="clean" finished-at="2021-09-25T15:32:11 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method is-config="true" signature="testing()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:32:11 IST" name="testing" finished-at="2021-09-25T15:32:13 IST" duration-ms="1718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method signature="qapage()[pri:6, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:32:13 IST" name="qapage" finished-at="2021-09-25T15:32:18 IST" duration-ms="5039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qapage -->
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:32:18 IST" name="clean" finished-at="2021-09-25T15:32:18 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method is-config="true" signature="testing()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:32:18 IST" name="testing" finished-at="2021-09-25T15:32:20 IST" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method signature="signup()[pri:7, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:32:20 IST" name="signup" finished-at="2021-09-25T15:32:44 IST" duration-ms="23783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:32:44 IST" name="clean" finished-at="2021-09-25T15:32:48 IST" duration-ms="4293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method is-config="true" signature="testing()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:32:48 IST" name="testing" finished-at="2021-09-25T15:32:49 IST" duration-ms="1361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method signature="subscription()[pri:8, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:32:49 IST" name="subscription" finished-at="2021-09-25T15:32:56 IST" duration-ms="6931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscription -->
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:32:56 IST" name="clean" finished-at="2021-09-25T15:33:01 IST" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method is-config="true" signature="testing()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:33:01 IST" name="testing" finished-at="2021-09-25T15:33:02 IST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method signature="track()[pri:9, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:33:02 IST" name="track" finished-at="2021-09-25T15:33:09 IST" duration-ms="6596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- track -->
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.urbanladder.runner.Runner@419a20a6]" started-at="2021-09-25T15:33:09 IST" name="clean" finished-at="2021-09-25T15:33:14 IST" duration-ms="5146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+      </class> <!-- com.urbanladder.runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

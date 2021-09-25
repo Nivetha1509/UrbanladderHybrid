@@ -1,0 +1,4 @@
+06:46:58.770 [main] INFO  com.urbanladder.runner.Runner - QA page has been successfully validated
+06:47:24.442 [main] INFO  com.urbanladder.runner.Runner - Signup page has been successfully automated
+06:47:35.828 [main] INFO  com.urbanladder.runner.Runner - Mail Id is successfully added to subscription
+06:47:46.775 [main] INFO  com.urbanladder.runner.Runner - Tracking page has been successfully validated

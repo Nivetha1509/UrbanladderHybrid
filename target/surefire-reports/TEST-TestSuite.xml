@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="141.302" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value=".\driver\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\User Data\Downloads\HybridFramework\HybridFramework\target\test-classes;D:\User Data\Downloads\HybridFramework\HybridFramework\target\classes;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlbeans\xmlbeans\4.0.0\xmlbeans-4.0.0.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\ASUS\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\ASUS\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\ASUS\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\ASUS\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\ASUS\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\ASUS\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\ASUS\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\ASUS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ASUS\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ASUS\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-java\3.4.0\selenium-java-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-api\3.4.0\selenium-api-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.4.0\selenium-edge-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.4.0\selenium-firefox-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.4.0\selenium-ie-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.4.0\selenium-opera-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.4.0\selenium-remote-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.4.0\selenium-safari-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-support\3.4.0\selenium-support-3.4.0.jar;C:\Users\ASUS\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\ASUS\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ASUS\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.22\cssparser-0.9.22.jar;C:\Users\ASUS\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\ASUS\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.26\htmlunit-2.26.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.26\htmlunit-core-js-2.26.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.25\neko-htmlunit-2.25.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\jetty-io\9.4.1.v20170120\jetty-io-9.4.1.v20170120.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\jetty-util\9.4.1.v20170120\jetty-util-9.4.1.v20170120.jar;C:\Users\ASUS\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\ASUS\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\ASUS\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.26\htmlunit-driver-2.26.jar;C:\Users\ASUS\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.3.v20170317\websocket-api-9.4.3.v20170317.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.3.v20170317\websocket-client-9.4.3.v20170317.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\jetty-client\9.4.3.v20170317\jetty-client-9.4.3.v20170317.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\jetty-http\9.4.3.v20170317\jetty-http-9.4.3.v20170317.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.3.v20170317\websocket-common-9.4.3.v20170317.jar;C:\Users\ASUS\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\ASUS\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\ASUS\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\ASUS\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\ASUS\.m2\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;C:\Users\ASUS\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ASUS\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\ASUS\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\ASUS\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\ASUS\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\ASUS\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\ASUS\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\ASUS\.m2\repository\org\apache\logging\log4j\log4j-api\2.8.2\log4j-api-2.8.2.jar;C:\Users\ASUS\.m2\repository\org\apache\logging\log4j\log4j-core\2.8.2\log4j-core-2.8.2.jar;C:\Users\ASUS\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\ASUS\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire6503191926809594991\surefirebooter13815373308299957207.jar C:\Users\ASUS\AppData\Local\Temp\surefire6503191926809594991 2021-09-25T19-03-27_754-jvmRun1 surefire10705182613430965790tmp surefire_05917353731454410273tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\User Data\Downloads\HybridFramework\HybridFramework\target\test-classes;D:\User Data\Downloads\HybridFramework\HybridFramework\target\classes;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlbeans\xmlbeans\4.0.0\xmlbeans-4.0.0.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\ASUS\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\ASUS\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\ASUS\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\ASUS\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\ASUS\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\ASUS\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\ASUS\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\ASUS\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\ASUS\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\ASUS\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\ASUS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ASUS\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ASUS\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-java\3.4.0\selenium-java-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-api\3.4.0\selenium-api-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.4.0\selenium-edge-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.4.0\selenium-firefox-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.4.0\selenium-ie-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.4.0\selenium-opera-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.4.0\selenium-remote-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.4.0\selenium-safari-driver-3.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\selenium-support\3.4.0\selenium-support-3.4.0.jar;C:\Users\ASUS\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\ASUS\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ASUS\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.22\cssparser-0.9.22.jar;C:\Users\ASUS\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\ASUS\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.26\htmlunit-2.26.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.26\htmlunit-core-js-2.26.jar;C:\Users\ASUS\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.25\neko-htmlunit-2.25.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\jetty-io\9.4.1.v20170120\jetty-io-9.4.1.v20170120.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\jetty-util\9.4.1.v20170120\jetty-util-9.4.1.v20170120.jar;C:\Users\ASUS\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\ASUS\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\ASUS\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\ASUS\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.26\htmlunit-driver-2.26.jar;C:\Users\ASUS\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.3.v20170317\websocket-api-9.4.3.v20170317.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.3.v20170317\websocket-client-9.4.3.v20170317.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\jetty-client\9.4.3.v20170317\jetty-client-9.4.3.v20170317.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\jetty-http\9.4.3.v20170317\jetty-http-9.4.3.v20170317.jar;C:\Users\ASUS\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.3.v20170317\websocket-common-9.4.3.v20170317.jar;C:\Users\ASUS\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\ASUS\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\ASUS\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\ASUS\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\ASUS\.m2\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;C:\Users\ASUS\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ASUS\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\ASUS\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\ASUS\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\ASUS\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\ASUS\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\ASUS\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\ASUS\.m2\repository\org\apache\logging\log4j\log4j-api\2.8.2\log4j-api-2.8.2.jar;C:\Users\ASUS\.m2\repository\org\apache\logging\log4j\log4j-core\2.8.2\log4j-core-2.8.2.jar;C:\Users\ASUS\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\ASUS\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Users\ASUS\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\User Data\Downloads\HybridFramework\HybridFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire6503191926809594991\surefirebooter13815373308299957207.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="ASUS"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ASUS\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="D:\User Data\Downloads\HybridFramework\HybridFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\ASUS\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/User Data/Downloads/eclipse-java-2021-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin/server;D:/User Data/Downloads/eclipse-java-2021-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Java\jdk1.8.0_291\bin;C:\work\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Notepad++;C:\Users\ASUS\AppData\Local\Android\Sdk\tools\bin;C:\Users\ASUS\AppData\Local\Android\Sdk\tools;C:\Users\ASUS\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Perforce\;C:\work\chromedriver;C:\work\axis2-1.6.2\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ASUS\AppData\Roaming\npm;D:\User Data\Downloads\eclipse-java-2021-06-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="addtocart[Sofas](1)" classname="com.urbanladder.runner.Runner" time="10.364">
+    <system-out><![CDATA[Sofas
+Sofas
+]]></system-out>
+    <system-err><![CDATA[ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console. Set system property 'org.apache.logging.log4j.simplelog.StatusLogger.level' to TRACE to show Log4j2 internal initialization logging.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 36662
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632576814.381][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 25, 2021 7:03:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="cart" classname="com.urbanladder.runner.Runner" time="4.126">
+    <system-out><![CDATA[Your cart is empty
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 10305
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632576827.680][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 25, 2021 7:03:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="customerStories" classname="com.urbanladder.runner.Runner" time="6.574">
+    <system-out><![CDATA[Number of images in the Customer Stories is 10
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 48646
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632576833.858][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 25, 2021 7:03:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="giftcard" classname="com.urbanladder.runner.Runner" time="7.019">
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 1681
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632576842.510][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 25, 2021 7:04:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="homepagesearch[Sofas](1)" classname="com.urbanladder.runner.Runner" time="9.732">
+    <system-out><![CDATA[Sofas
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 34473
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632576851.465][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 25, 2021 7:04:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="login" classname="com.urbanladder.runner.Runner" time="17.81">
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 39020
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632576867.238][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 25, 2021 7:04:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="qapage" classname="com.urbanladder.runner.Runner" time="6.188">
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 13428
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632576886.967][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 25, 2021 7:04:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="signup" classname="com.urbanladder.runner.Runner" time="25.355">
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 18753
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632576895.003][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 25, 2021 7:04:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="subscription" classname="com.urbanladder.runner.Runner" time="6.338">
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 7629
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632576926.192][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 25, 2021 7:05:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="track" classname="com.urbanladder.runner.Runner" time="7.109">
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 3402
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1632576938.536][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 25, 2021 7:05:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+06:46:09.047 [main] INFO  com.urbanladder.runner.Runner - Cart has beem successfully checked
+06:46:15.663 [main] INFO  com.urbanladder.runner.Runner - Successfully validated Customer Stories page
+06:46:22.824 [main] INFO  com.urbanladder.runner.Runner - Successfully validated giftcard page
+06:46:33.581 [main] INFO  com.urbanladder.runner.Runner - Product has been successfully searched and the product name has been validated
+06:46:52.682 [main] INFO  com.urbanladder.runner.Runner - Successsfully automated login page
