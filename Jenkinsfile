@@ -28,8 +28,8 @@ pipeline{
 		stage('send notification'){
                     steps {
                                 mail to:'nivethas120@gmail.com',
-                                body :"something went wrong ${env.BUILD_URL}",
-                                subject:"failed ${currentBuild.fullDisplayName}"
+                                body :"Build Success ${env.BUILD_URL}",
+                                subject:"Passed ${currentBuild.fullDisplayName}"
                       }
 		}     
 		
