@@ -24,6 +24,5 @@ public class loginpageobject {
 	    //Password locator :
 	    driver.findElement(By.xpath("/html/body/div[6]/div/div[1]/div/div[2]/div[3]/form/div/div/div/input")).sendKeys(password);
 	    driver.findElement(By.xpath("//*[@id=\"ul_site_login\"]")).click();
-		
 	}
 }

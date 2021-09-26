@@ -11,14 +11,13 @@ import com.urbanladder.uistore.homepagesearchui;
 
 public class Homepagesearchpageobject {
 
+	public static void search(WebDriver driver, String data, Logger log) throws InterruptedException {
+		// TODO Auto-generated method stub
+		ReusableMethods.sendKeys(homepagesearchui.search, data, driver);
+		Thread.sleep(1000);
+		ReusableMethods.click(homepagesearchui.searchbutton, driver);
+		Thread.sleep(1000);
+		ReusableMethods.getAttribute(homepagesearchui.text, data, driver);
+	}
 
-		public static void search(WebDriver driver, String data, Logger log) throws InterruptedException {
-			// TODO Auto-generated method stub
-			ReusableMethods.sendKeys( homepagesearchui.search, data, driver);
-			Thread.sleep(1000);
-			ReusableMethods.click(homepagesearchui.searchbutton, driver);
-			Thread.sleep(1000);
-			ReusableMethods.getAttribute(homepagesearchui.text, data, driver);
-		}
-		
 }

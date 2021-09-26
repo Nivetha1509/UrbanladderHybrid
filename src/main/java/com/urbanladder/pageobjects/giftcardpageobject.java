@@ -12,14 +12,14 @@ import com.urbanladder.uistore.giftcardUi;
 public class giftcardpageobject {
 	public static void gift(WebDriver driver, String data4, Logger log) throws InterruptedException {
 		ReusableMethods.click(giftcardUi.giftcard, driver);
-	  WebElement ele = driver.findElement(By.xpath("//*[@id=\"app-container\"]/div/main/section/section[1]/ul/li[1]"));
-	  Actions action = new Actions(driver);
-	  action.moveToElement(ele).perform();
-	  ReusableMethods.click(giftcardUi.chose, driver);
-	  ReusableMethods.click(giftcardUi.money, driver);
-	  ReusableMethods.sendKeysArrowDown(giftcardUi.date, driver);
-	  ReusableMethods.sendKeysEnter(giftcardUi.date, driver);
-	  ReusableMethods.getAttributeqa(giftcardUi.text, data4, driver);
-	  
+		WebElement ele = driver.findElement(By.xpath("//*[@id=\"app-container\"]/div/main/section/section[1]/ul/li[1]"));
+		Actions action = new Actions(driver);
+		action.moveToElement(ele).perform();
+		ReusableMethods.click(giftcardUi.chose, driver);
+		ReusableMethods.click(giftcardUi.money, driver);
+		ReusableMethods.sendKeysArrowDown(giftcardUi.date, driver);
+		ReusableMethods.sendKeysEnter(giftcardUi.date, driver);
+		ReusableMethods.getAttributeqa(giftcardUi.text, data4, driver);
+
 	}
 }
