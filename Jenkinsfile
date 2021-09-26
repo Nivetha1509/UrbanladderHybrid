@@ -24,6 +24,14 @@ pipeline{
 				echo 'Hello World from Jenkins and Github!'
 			}
 		}
+ 
+		stage('send notification'){
+                    steps {
+                                mail to:'nivethas120@gmail.com',
+                                body :"Build Success ${env.BUILD_URL} Extent report=file:///D:/User%20Data/Downloads/HybridFramework/HybridFramework/report/extenthtmlreport.html",
+                                subject:"Passed ${currentBuild.fullDisplayName}"
+                      }
+		}     
 		
 	}
 }
