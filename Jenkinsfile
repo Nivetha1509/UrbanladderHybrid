@@ -24,6 +24,14 @@ pipeline{
 				echo 'Hello World from Jenkins and Github!'
 			}
 		}
+		 finally{  
+               stage('send notification')
+                     {
+                                mail to:'nivethas120@gmail.com',
+                                body :"something went wrong ${env.BUILD_URL}",
+                                subject:"failed ${currentBuild.fullDisplayName}"
+                      }
+                      }
 		
 	}
 }
